@@ -86,7 +86,8 @@ body {
 
   color: #ffffff;
 }
-.title-advantages {
+.title-advantages,
+.title-portfolio {
   display: none;
 }
 
@@ -182,3 +183,20 @@ body {
 .address-contact:focus {
   color: var(--accent-color);
 }
+.portfolio-open-btn {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+
+background: #F5F4FA;
+border-radius: 4px;
+
+}
+.portfolio-open-btn:hover,
+.portfolio-open-btn:focus {
+  background: #2196F3;
+  color: #ffffff;
+  
+
+}
+
